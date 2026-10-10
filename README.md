@@ -1,0 +1,57 @@
+# House Price Prediction Using Machine Learning
+
+## Final project
+**House Price Prediction Using Machine Learning: A Comparative Analysis of Regression Models**
+
+### Practical coverage
+- Practical 1: Data cleaning and preprocessing
+- Practical 3: Linear Regression and GridSearchCV
+- Practical 4: KNN
+- Practical 5: Decision Tree / Random Forest and hyperparameter tuning
+
+### Models
+1. Linear Regression
+2. KNN Regressor
+3. Decision Tree Regressor
+4. Random Forest Regressor
+
+### Metrics
+- MAE: lower is better
+- RMSE: lower is better
+- R²: higher is better
+
+## Dataset
+Download the Kaggle **House Prices: Advanced Regression Techniques** dataset.
+Put `train.csv` at:
+
+    data/train.csv
+
+The dataset is intentionally not included in this ZIP.
+
+## Run
+
+Install dependencies:
+
+    pip install -r requirements.txt
+
+Train:
+
+    python train.py
+
+Open notebook:
+
+    jupyter notebook
+
+Run UI:
+
+    streamlit run app/app.py
+
+## Output
+Training creates:
+- models/best_model.pkl
+- outputs/results/model_comparison.csv
+- outputs/figures/*.png
+
+## Final workflow
+Data Cleaning → Preprocessing → Train/Test Split → 4 Models → GridSearchCV
+→ Metrics → Comparison → Best Model → Streamlit UI → Deployment
