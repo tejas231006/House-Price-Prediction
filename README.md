@@ -21,13 +21,16 @@
 - R²: higher is better
 
 ## Dataset
-Download the Kaggle **House Sales in King County, USA   ** dataset.
-`https://www.kaggle.com/datasets/harlfoxem/housesalesprediction`
-Put `train.csv` at:
+Download the Kaggle dataset: **House Sales in King County, USA**
 
-    data/train.csv
+- Dataset link: https://www.kaggle.com/datasets/harlfoxem/housesalesprediction
+- Place the downloaded `train.csv` file in:
 
-The dataset is intentionally not included in this ZIP.
+```bash
+data/train.csv
+```
+
+The dataset is intentionally not included in this repository.
 
 ## Run
 
