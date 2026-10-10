@@ -21,7 +21,8 @@
 - R²: higher is better
 
 ## Dataset
-Download the Kaggle **House Prices: Advanced Regression Techniques** dataset.
+Download the Kaggle **House Sales in King County, USA   ** dataset.
+`https://www.kaggle.com/datasets/harlfoxem/housesalesprediction`
 Put `train.csv` at:
 
     data/train.csv
